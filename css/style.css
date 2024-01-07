@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif; /* Apply San-serif font to the whole page */
+}
+
+div {
+    border: solid;
+    
+}
+
+    /* For tablets and above */
+@media only screen and (min-width: 100px) {
+    .col {
+        background-color: lavenderblush; /* Light pink background for S-sized devices */
+    }
+}
+
+    /* For desktop */
+@media only screen and (min-width: 768px) {
+    .col {
+        background-color: lightgray; /* Light gray background for M-sixed devices */
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .col {
+        background-color: lightgoldenrodyellow; /* Light golden background for L-sized devices */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .col {
+        background-color: rgb(188, 238, 179); /* Light green background for XL-sized devices */
+    }
+}
+
+    /* Orientation of landscape */
+@media only screen and (orientation: landscape) {
+    /* this will change the background to light blue when view is landscape */
+    .col {
+    background-color: rgba(187, 231, 231, 0.911);
+    }
+}
+
+.strong {
+    font-weight: bold; /* Making text bold */
+}
